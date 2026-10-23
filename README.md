@@ -17,36 +17,6 @@ Say goodbye to legacy GTK2 deprecation crashes, font scaling issues, and update 
 
 ---
 
-## 📸 Interface Layout
-
-NoteKeeper preserves the classic 3-pane desktop layout:
-
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│  [File]  [Edit]  [View]  [Note]  [Format]  [Insert]  [Tools]  [Help]    │
-├────────────────────────────────────────────────────────────────────────┤
-│  [◀] [▶] [▲] | [+] [📁+] [💾] | [✂] [📋] [📄] | [🔍 Search notes... ✕] │
-├───────────────────┬────────────────────────────────────────────────────┤
-│ 📁 My Notebook    │ 📑 Note List (Top-Right Pane)                      │
-│   ├── 📁 Research │   Title          Type    Created     Modified      │
-│   │   ├── 📄 Idea │   --------------------------------------------     │
-│   │   └── 📄 Draft│   Project Alpha  Page    2026-10-24  2026-10-24    │
-│   └── 📁 Personal │                                                    │
-│       ├── 📄 ToDo ├────────────────────────────────────────────────────┤
-│       └── 📄 Books│ [Tab: Project Alpha ✕]                             │
-│                   │ [Normal ▼] [Segoe UI ▼] [11 ▼] [B] [I] [U] [S]     │
-│                   │                                                    │
-│                   │ # Project Alpha                                    │
-│                   │ Modern hierarchical notes with rich text,          │
-│                   │ embedded images, and instant search.               │
-└───────────────────┴────────────────────────────────────────────────────┘
-```
-
-1. **Left Pane (Hierarchical TreeView):** Organize notes and folders in an unlimited nested hierarchy. Expand, collapse, reorder, rename, or delete items.
-2. **Top-Right Pane (Child List View):** A sortable multi-column table displaying all child notes and subfolders within the selected container, with timestamps and item types.
-3. **Bottom-Right Pane (Rich Text Editor):** Tabbed rich-text editor with full formatting toolbar, image embedding, hyperlinks, lists, and instant Find & Replace.
-
----
 
 ## 🚀 Key Features
 
